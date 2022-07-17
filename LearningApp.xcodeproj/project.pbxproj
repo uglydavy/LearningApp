@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		013344682884512F00DEA172 /* LearningAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344672884512F00DEA172 /* LearningAppApp.swift */; };
-		0133446A2884512F00DEA172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344692884512F00DEA172 /* ContentView.swift */; };
+		013344682884512F00DEA172 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344672884512F00DEA172 /* LearningApp.swift */; };
+		0133446A2884512F00DEA172 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344692884512F00DEA172 /* HomeView.swift */; };
 		0133446C2884513B00DEA172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0133446B2884513B00DEA172 /* Assets.xcassets */; };
 		0133446F2884513B00DEA172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0133446E2884513B00DEA172 /* Preview Assets.xcassets */; };
+		0133447B2884546F00DEA172 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447A2884546F00DEA172 /* QuizView.swift */; };
+		0133447D2884547D00DEA172 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447C2884547D00DEA172 /* LessonListView.swift */; };
+		0133447F2884548E00DEA172 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447E2884548E00DEA172 /* LessonView.swift */; };
+		013344812884549E00DEA172 /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344802884549E00DEA172 /* QuizResultsView.swift */; };
+		013344832884617900DEA172 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344822884617900DEA172 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		013344642884512F00DEA172 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		013344672884512F00DEA172 /* LearningAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningAppApp.swift; sourceTree = "<group>"; };
-		013344692884512F00DEA172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		013344672884512F00DEA172 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
+		013344692884512F00DEA172 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0133446B2884513B00DEA172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0133446E2884513B00DEA172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0133447A2884546F00DEA172 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		0133447C2884547D00DEA172 /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
+		0133447E2884548E00DEA172 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		013344802884549E00DEA172 /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
+		013344822884617900DEA172 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,12 @@
 		013344662884512F00DEA172 /* LearningApp */ = {
 			isa = PBXGroup;
 			children = (
-				013344672884512F00DEA172 /* LearningAppApp.swift */,
-				013344692884512F00DEA172 /* ContentView.swift */,
+				013344772884516D00DEA172 /* Models */,
+				013344762884515B00DEA172 /* Views */,
+				013344752884514D00DEA172 /* ViewModels */,
+				013344782884517900DEA172 /* Helpers */,
+				01334479288451EF00DEA172 /* Resources */,
+				013344672884512F00DEA172 /* LearningApp.swift */,
 				0133446B2884513B00DEA172 /* Assets.xcassets */,
 				0133446D2884513B00DEA172 /* Preview Content */,
 			);
@@ -65,6 +79,47 @@
 				0133446E2884513B00DEA172 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		013344752884514D00DEA172 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				013344822884617900DEA172 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		013344762884515B00DEA172 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				013344692884512F00DEA172 /* HomeView.swift */,
+				0133447A2884546F00DEA172 /* QuizView.swift */,
+				013344802884549E00DEA172 /* QuizResultsView.swift */,
+				0133447C2884547D00DEA172 /* LessonListView.swift */,
+				0133447E2884548E00DEA172 /* LessonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		013344772884516D00DEA172 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		013344782884517900DEA172 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		01334479288451EF00DEA172 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +192,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0133446A2884512F00DEA172 /* ContentView.swift in Sources */,
-				013344682884512F00DEA172 /* LearningAppApp.swift in Sources */,
+				0133446A2884512F00DEA172 /* HomeView.swift in Sources */,
+				013344682884512F00DEA172 /* LearningApp.swift in Sources */,
+				013344812884549E00DEA172 /* QuizResultsView.swift in Sources */,
+				0133447F2884548E00DEA172 /* LessonView.swift in Sources */,
+				0133447D2884547D00DEA172 /* LessonListView.swift in Sources */,
+				013344832884617900DEA172 /* ContentModel.swift in Sources */,
+				0133447B2884546F00DEA172 /* QuizView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
