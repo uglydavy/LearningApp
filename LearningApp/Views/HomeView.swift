@@ -13,11 +13,39 @@ struct HomeView: View {
     
     var body: some View {
         
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text(model.modules[0].category)
+        NavigationView {
+            
+            VStack (alignment: .leading) {
+                
+                Text("What would you like to do today ?")
+                    .font(.headline)
+                    .bold()
+                    .padding(.leading)
+                    
+                ScrollView {
+                    
+                    LazyVStack {
+                        
+                        ForEach (model.modules) { module in
+                            
+                            VStack (spacing: 20) {
+                                
+                                HomeViewRow(image: module.content.image, title: "Learning \(module.category)", description: module.content.description, count: " \(module.content.lessons.count) lessons", time: module.content.time)
+                                
+                                HomeViewRow(image: module.test.image, title: "\(module.category) Test", description: module.test.description, count: " \(module.test.questions.count) lessons", time: module.test.time)
+                                
+                            }
+                            
+                        }
+                        
+                    }
+                        .padding()
+                    
+                }
+                
+            }
+                .navigationTitle("Get Started")
+            
         }
         
     }
