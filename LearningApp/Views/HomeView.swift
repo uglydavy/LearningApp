@@ -17,7 +17,7 @@ struct HomeView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text(model.modules[0].category)
         }
         
     }
@@ -26,6 +26,9 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
+        
         HomeView()
+            .environmentObject( ContentModel() )
+        
     }
 }

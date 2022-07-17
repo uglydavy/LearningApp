@@ -16,6 +16,9 @@
 		0133447F2884548E00DEA172 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447E2884548E00DEA172 /* LessonView.swift */; };
 		013344812884549E00DEA172 /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344802884549E00DEA172 /* QuizResultsView.swift */; };
 		013344832884617900DEA172 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344822884617900DEA172 /* ContentModel.swift */; };
+		01334486288464B700DEA172 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 01334484288464B700DEA172 /* data.json */; };
+		01334487288464B700DEA172 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 01334485288464B700DEA172 /* style.html */; };
+		01334489288465D700DEA172 /* Learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01334488288465D600DEA172 /* Learning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		0133447E2884548E00DEA172 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
 		013344802884549E00DEA172 /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
 		013344822884617900DEA172 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		01334484288464B700DEA172 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		01334485288464B700DEA172 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
+		01334488288465D600DEA172 /* Learning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		013344772884516D00DEA172 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				01334488288465D600DEA172 /* Learning.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,6 +125,8 @@
 		01334479288451EF00DEA172 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				01334484288464B700DEA172 /* data.json */,
+				01334485288464B700DEA172 /* style.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -181,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0133446F2884513B00DEA172 /* Preview Assets.xcassets in Resources */,
+				01334486288464B700DEA172 /* data.json in Resources */,
+				01334487288464B700DEA172 /* style.html in Resources */,
 				0133446C2884513B00DEA172 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0133446A2884512F00DEA172 /* HomeView.swift in Sources */,
+				01334489288465D700DEA172 /* Learning.swift in Sources */,
 				013344682884512F00DEA172 /* LearningApp.swift in Sources */,
 				013344812884549E00DEA172 /* QuizResultsView.swift in Sources */,
 				0133447F2884548E00DEA172 /* LessonView.swift in Sources */,
