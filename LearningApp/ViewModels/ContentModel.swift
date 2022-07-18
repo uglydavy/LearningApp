@@ -10,6 +10,10 @@ import Foundation
 class ContentModel: ObservableObject {
     
     @Published var modules = [Learning]()
+    @Published var currentModule: Learning?
+    @Published var currLesson: Lessons?
+    var currModuleIndex = 0
+    var currLessonIndex = 0
     var styleData: Data?
     
     init () { getData() }
@@ -41,6 +45,49 @@ class ContentModel: ObservableObject {
             self.styleData = styleData
             
         } catch { print(error) }
+        
+    }
+    
+    func beginModule (_ moduleID: Int) {
+        
+        for idx in 0 ..< modules.count {
+            
+            if modules[idx].id == moduleID {
+                
+                currModuleIndex = idx
+                break
+                
+            }
+            
+        }
+        
+        currentModule = modules[currModuleIndex]
+        
+    }
+    
+    func beginLesson (_ lessonIndex: Int) {
+        
+        if lessonIndex < currentModule!.content.lessons.count { currLessonIndex = lessonIndex }
+        else { currLessonIndex = 0 }
+        
+        currLesson = currentModule!.content.lessons[currLessonIndex]
+        
+    }
+    
+    func hasNextLesson () -> Bool { return currLessonIndex + 1 < currentModule!.content.lessons.count }
+    
+    func nextLesson () {
+        
+        currLessonIndex += 1
+        
+        if currLessonIndex < currentModule!.content.lessons.count { currLesson = currentModule!.content.lessons[currLessonIndex] }
+        
+        else {
+            
+            currLessonIndex = 0
+            currLesson = nil
+            
+        }
         
     }
     

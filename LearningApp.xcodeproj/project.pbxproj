@@ -11,15 +11,16 @@
 		0133446A2884512F00DEA172 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344692884512F00DEA172 /* HomeView.swift */; };
 		0133446C2884513B00DEA172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0133446B2884513B00DEA172 /* Assets.xcassets */; };
 		0133446F2884513B00DEA172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0133446E2884513B00DEA172 /* Preview Assets.xcassets */; };
-		0133447B2884546F00DEA172 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447A2884546F00DEA172 /* QuizView.swift */; };
-		0133447D2884547D00DEA172 /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447C2884547D00DEA172 /* LessonListView.swift */; };
-		0133447F2884548E00DEA172 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447E2884548E00DEA172 /* LessonView.swift */; };
-		013344812884549E00DEA172 /* QuizResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344802884549E00DEA172 /* QuizResultsView.swift */; };
+		0133447D2884547D00DEA172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133447C2884547D00DEA172 /* ContentView.swift */; };
 		013344832884617900DEA172 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344822884617900DEA172 /* ContentModel.swift */; };
 		01334486288464B700DEA172 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 01334484288464B700DEA172 /* data.json */; };
 		01334487288464B700DEA172 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 01334485288464B700DEA172 /* style.html */; };
 		01334489288465D700DEA172 /* Learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01334488288465D600DEA172 /* Learning.swift */; };
 		0133448D288481DD00DEA172 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133448C288481DD00DEA172 /* HomeViewRow.swift */; };
+		0133448F2885C4EB00DEA172 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133448E2885C4EB00DEA172 /* ContentViewRow.swift */; };
+		013344912885C79200DEA172 /* ContentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344902885C79200DEA172 /* ContentDetailsView.swift */; };
+		013344942885CB0500DEA172 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013344932885CB0500DEA172 /* AVKit.framework */; };
+		013344962885CCB600DEA172 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344952885CCB600DEA172 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,15 +29,16 @@
 		013344692884512F00DEA172 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0133446B2884513B00DEA172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0133446E2884513B00DEA172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0133447A2884546F00DEA172 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		0133447C2884547D00DEA172 /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonListView.swift; sourceTree = "<group>"; };
-		0133447E2884548E00DEA172 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
-		013344802884549E00DEA172 /* QuizResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsView.swift; sourceTree = "<group>"; };
+		0133447C2884547D00DEA172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		013344822884617900DEA172 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		01334484288464B700DEA172 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		01334485288464B700DEA172 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		01334488288465D600DEA172 /* Learning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning.swift; sourceTree = "<group>"; };
 		0133448C288481DD00DEA172 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		0133448E2885C4EB00DEA172 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		013344902885C79200DEA172 /* ContentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailsView.swift; sourceTree = "<group>"; };
+		013344932885CB0500DEA172 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		013344952885CCB600DEA172 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013344942885CB0500DEA172 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +58,7 @@
 			children = (
 				013344662884512F00DEA172 /* LearningApp */,
 				013344652884512F00DEA172 /* Products */,
+				013344922885CB0500DEA172 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				013344692884512F00DEA172 /* HomeView.swift */,
-				0133447A2884546F00DEA172 /* QuizView.swift */,
-				013344802884549E00DEA172 /* QuizResultsView.swift */,
-				0133447C2884547D00DEA172 /* LessonListView.swift */,
-				0133447E2884548E00DEA172 /* LessonView.swift */,
+				0133447C2884547D00DEA172 /* ContentView.swift */,
 				0133448C288481DD00DEA172 /* HomeViewRow.swift */,
+				0133448E2885C4EB00DEA172 /* ContentViewRow.swift */,
+				013344902885C79200DEA172 /* ContentDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,8 +133,17 @@
 			children = (
 				01334484288464B700DEA172 /* data.json */,
 				01334485288464B700DEA172 /* style.html */,
+				013344952885CCB600DEA172 /* Constants.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		013344922885CB0500DEA172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013344932885CB0500DEA172 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,14 +219,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0133446A2884512F00DEA172 /* HomeView.swift in Sources */,
+				0133448F2885C4EB00DEA172 /* ContentViewRow.swift in Sources */,
 				0133448D288481DD00DEA172 /* HomeViewRow.swift in Sources */,
 				01334489288465D700DEA172 /* Learning.swift in Sources */,
 				013344682884512F00DEA172 /* LearningApp.swift in Sources */,
-				013344812884549E00DEA172 /* QuizResultsView.swift in Sources */,
-				0133447F2884548E00DEA172 /* LessonView.swift in Sources */,
-				0133447D2884547D00DEA172 /* LessonListView.swift in Sources */,
+				0133447D2884547D00DEA172 /* ContentView.swift in Sources */,
 				013344832884617900DEA172 /* ContentModel.swift in Sources */,
-				0133447B2884546F00DEA172 /* QuizView.swift in Sources */,
+				013344912885C79200DEA172 /* ContentDetailsView.swift in Sources */,
+				013344962885CCB600DEA172 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
