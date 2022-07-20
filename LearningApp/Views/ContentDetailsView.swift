@@ -26,12 +26,12 @@ struct ContentDetailsView: View {
                 
             }
             
+            CodeTextView()
+            
             if model.hasNextLesson() {
                 
                 Button(
-                    action: {
-                        
-                    },
+                    action: {  model.nextLesson() },
                     
                     label: {
                         
@@ -55,6 +55,7 @@ struct ContentDetailsView: View {
             
         }
             .padding()
+            .navigationBarTitle(lesson?.title ?? "")
         
     }
     

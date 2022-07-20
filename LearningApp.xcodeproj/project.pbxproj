@@ -21,6 +21,7 @@
 		013344912885C79200DEA172 /* ContentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344902885C79200DEA172 /* ContentDetailsView.swift */; };
 		013344942885CB0500DEA172 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013344932885CB0500DEA172 /* AVKit.framework */; };
 		013344962885CCB600DEA172 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013344952885CCB600DEA172 /* Constants.swift */; };
+		0147DF802888599400AF31B5 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147DF7F2888599400AF31B5 /* CodeTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		013344902885C79200DEA172 /* ContentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailsView.swift; sourceTree = "<group>"; };
 		013344932885CB0500DEA172 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		013344952885CCB600DEA172 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0147DF7F2888599400AF31B5 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				013344692884512F00DEA172 /* HomeView.swift */,
-				0133447C2884547D00DEA172 /* ContentView.swift */,
 				0133448C288481DD00DEA172 /* HomeViewRow.swift */,
+				0133447C2884547D00DEA172 /* ContentView.swift */,
 				0133448E2885C4EB00DEA172 /* ContentViewRow.swift */,
 				013344902885C79200DEA172 /* ContentDetailsView.swift */,
+				0147DF7F2888599400AF31B5 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				01334489288465D700DEA172 /* Learning.swift in Sources */,
 				013344682884512F00DEA172 /* LearningApp.swift in Sources */,
 				0133447D2884547D00DEA172 /* ContentView.swift in Sources */,
+				0147DF802888599400AF31B5 /* CodeTextView.swift in Sources */,
 				013344832884617900DEA172 /* ContentModel.swift in Sources */,
 				013344912885C79200DEA172 /* ContentDetailsView.swift in Sources */,
 				013344962885CCB600DEA172 /* Constants.swift in Sources */,

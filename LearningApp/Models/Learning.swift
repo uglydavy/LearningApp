@@ -26,16 +26,6 @@ struct Content: Identifiable, Decodable {
     
 }
 
-struct Test: Identifiable, Decodable {
-    
-    var id: Int,
-        image: String,
-        time: String,
-        description: String,
-        questions: [Questions]
-    
-}
-
 struct Lessons: Identifiable, Decodable {
     
     var id: Int,
@@ -47,6 +37,15 @@ struct Lessons: Identifiable, Decodable {
     
 }
 
+struct Test: Identifiable, Decodable {
+    
+    var id: Int,
+        image: String,
+        time: String,
+        description: String,
+        questions: [Questions]
+    
+}
 
 struct Questions: Identifiable, Decodable {
     
